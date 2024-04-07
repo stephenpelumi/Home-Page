@@ -454,7 +454,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
   }
   @media screen and (max-width: 500px) {
     body {
-      overflow-x: hidden;
+      width: 100%;
+      overflow-x: hidden !important;
+
     }
     .cards{
         overflow-x: hidden;
@@ -582,6 +584,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
       .content{
         display: flex;
         flex-direction: column;
+        width: 100%;
+      overflow-x: hidden !important;
       }
       .content_word{
         display: flex;
@@ -589,6 +593,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
         margin-left: 10%;
         margin-top: 10px;
         justify-content: center;
+        width: 100%;
+        overflow-x: hidden;
+        width: 100%;
+        overflow-x: hidden !important;
       }
       .socials_main{
         justify-content: center;
@@ -610,23 +618,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
       }
       .mission_word, .Thesis_word, .Story_word{
         display: none;
+        
       }
       .company{
         /* text-align: center; */
         padding-top: 100px;
         margin-left: 18%;
+        width: 100%;
+        overflow-x: hidden !important;
       }
       .company_content{
         margin-left: 18%;
+        width: 100%;
+        overflow-x: hidden !important;
       }
       .contact{
         margin-left: 18%;
+        overflow-x: hidden;
+        width: 100%;
+        width: 100%;
+        overflow-x: hidden !important;
       }
       .socials{
         width: 20px;
-      }
-      .Ellipse{
-        margin-left: 8%;
       }
       .Copyright{
         font-size: 15px;
@@ -639,7 +653,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
       .footer_img{
         height: 65vh;
         width: 100%;
-        overflow-x: hidden;
+        overflow-x: hidden !important;
       }
   }
   @media screen and (min-width: 2000px) {
