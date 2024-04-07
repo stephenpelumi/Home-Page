@@ -682,7 +682,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
       }
       
       .logo{
-        width: 80px;
+        width: 60px;
         margin-top: 10px;
       }
 
@@ -695,15 +695,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
         margin-top: 20px;
       }
       .nav{
-        font-size: 3em;
+        font-size: 2em;
         margin-top: 0px;
         display: flex;
         gap: 40px;
         margin-left: 90px;
-        margin-top: 20px;
+        margin-top: 25px;
       }
       .header{
-        height: 7em;
+        height: 6em;
         width: 100%;
         position: fixed;
         overflow-x: hidden;
@@ -712,44 +712,45 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
         /* display: flex; */
       }
       .back_button{
-        font-size: 40px;
+        font-size: 30px;
         height: 70px;
         margin-top: 10px;
-        padding: 10px 20px 10px 20px;
+        padding: 15px 20px 0px 20px;
         border-radius: 40px;
         gap: 20px;
         right: 7%;
       }
       .backArrow{
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 5px;
       }
       .search{
-        font-size: 50px;
+        font-size: 30px;
+        margin-top: 30px;
       }
       .Word{
-        font-size: 200px;
-        margin-top: 650px;
+        font-size: 120px;
+        margin-top: 350px;
       }
       .mouse{
-        height: 180px;
-        width: 110px;
+        height: 150px;
+        width: 100px;
         border-radius: 80px;
         border: 3px solid white;
-        margin-top: 1700px;
+        margin-top: 800px;
       }
       .m_scroll_arrows{
-        width: 45px;
-        height: 45px;
+        width: 35px;
+        height: 35px;
         margin-left: 18px;
         border-right: 5px solid white;
         border-bottom: 5px solid white;
       }
       .toggle{
-        margin-top: -420px;
+        margin-top: -350px;
       }
       .toogle_img{
-        font-size: 50px;
+        font-size: 30px;
       }
       .cards{
         display: flex;
@@ -764,24 +765,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
         /* margin-left: 0%; */
 
       }
-      .content{
 
-        width: 100%;
-        /* flex-direction: column; */
-      }
-      .content_word{
-        display: flex;
-        gap: 100px;
-        /* flex-direction: column; */
-        /* margin-left: 10%; */
-        margin-top: 10px;
-        font-size: 40px;
-        /* justify-content: center; */
-      }
-      .socials_main{
-        justify-content: center;
-        margin-top: 20px;
-      }
       .first_img{
         height: 80vh;
       }
@@ -798,6 +782,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
         position: absolute;
             bottom: 0px;
             z-index: 555;
+            font-size: 25px;
       }
 
       .mission_word{
@@ -809,19 +794,60 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
       .Story_word{
         right: 7%;
       }
+
+      .header.scrolled{
+        margin-left: 500px;
+        border-radius:70px;
+        width: 60%;
+      }
+      .footer_img{
+        height: 70vh;
+        width: 100%;
+        overflow-x: hidden;
+      }
+      .line{
+        display: block;
+        height: 3px;
+        margin-top: 100px;
+      }
+      .logo_footer{
+        width: 100px;
+        margin-top: 150px;
+
+        float: right;
+    }
+      .content{
+
+        width: 100%;
+
+      }
+      .content_word{
+        display: flex;
+        gap: 100px;
+  
+        margin-top: 10px;
+        font-size: 25px;
+
+      }
+      .socials_main{
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .first_img{
+        height: 80vh;
+      }
       .footer{
         width: 100%;
       }
       .company{
-        /* text-align: center; */
-        /* padding-top: 100px; */
+
         margin-left: 18%;
       }
       .company_content{
         margin-left: 18%;
       }
       .company, .legal, .contact{
-        font-size: 70px;
+        font-size: 40px;
     }
  .company_content, .legal_content{
   line-height: 70px;
@@ -832,15 +858,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
         justify-content: end;
       }
       .socials{
-        width: 100px;
+        width: 40px;
       }
 
       .Copyright{
-        font-size:30px;
-      }
-      .header.scrolled{
-        margin-left: 280px;
-        border-radius:70px;
+        font-size:25px;
       }
       .footer_img{
         height: 70vh;
