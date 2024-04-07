@@ -9,27 +9,61 @@
   </head>
   <body>
     <div class="Word">Beat The Impossible</div>
-    
-<button class="back_button">
-      Back to main menu
-      <svg
-        class="backArrow"
-        xmlns="http://www.w3.org/2000/svg"
-        width="1em"
-        height="1em"
-        viewBox="0 0 24 24"
-      >
-        <path
-          fill="currentColor"
-          d="m5.828 7l2.536 2.535L6.95 10.95L2 6l4.95-4.95l1.414 1.415L5.828 5H13a8 8 0 1 1 0 16H4v-2h9a6 6 0 0 0 0-12z"
-        />
-      </svg>
-    </button>
-
     <!-- header -->
+    <ul id="navLinks">
+      <li class="each_word home">Home</li>
+      <li class="each_word">About</li>
+      <li class="each_word">WDIM</li>
+      <li class="each_word">Company</li>
+      <li class="each_word">Contact</li>
+      <li class="each_word">
+        <button class="back_button_media">
+          Back to main menu
+          <svg
+            class="backArrow"
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="m5.828 7l2.536 2.535L6.95 10.95L2 6l4.95-4.95l1.414 1.415L5.828 5H13a8 8 0 1 1 0 16H4v-2h9a6 6 0 0 0 0-12z"
+            />
+          </svg>
+        </button>
+      </li>
+      <li>
+        <svg
+          class="search_media"
+          xmlns="http://www.w3.org/2000/svg"
+          width="1em"
+          height="1em"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            fill-rule="evenodd"
+            d="m16.325 14.899l5.38 5.38a1.008 1.008 0 0 1-1.427 1.426l-5.38-5.38a8 8 0 1 1 1.426-1.426M10 16a6 6 0 1 0 0-12a6 6 0 0 0 0 12"
+          />
+        </svg>
+      </li>
+    </ul>
     <header id="navbar" class="header">
       <nav class="main_nav">
-        <img class="logo" src="./assets/images/Gradient Logo X 1.png" alt="" />
+        <div class="logo">
+          <img
+            class="logo"
+            src="./assets/images/Gradient Logo X 1.png"
+            alt=""
+          />
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
         <ul class="nav">
           <li>Home</li>
           <li>About</li>
@@ -37,6 +71,21 @@
           <li>Company</li>
           <li>Contact</li>
         </ul>
+        <button class="back_button">
+          Back to main menu
+          <svg
+            class="backArrow"
+            xmlns="http://www.w3.org/2000/svg"
+            width="1em"
+            height="1em"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="currentColor"
+              d="m5.828 7l2.536 2.535L6.95 10.95L2 6l4.95-4.95l1.414 1.415L5.828 5H13a8 8 0 1 1 0 16H4v-2h9a6 6 0 0 0 0-12z"
+            />
+          </svg>
+        </button>
       </nav>
       <div class="right_nav">
         <svg
@@ -68,6 +117,7 @@
     <!-- toggle -->
     <div class="toggle">
       <svg
+        class="toogle_img"
         xmlns="http://www.w3.org/2000/svg"
         width="2em"
         height="2em"
@@ -82,7 +132,7 @@
     <!-- <img class="second_img" src="./assets/images/image 2.png" alt="" /> -->
 
     <div class="cards">
-        <div class="mission_word">Mission</div>
+      <div class="mission_word">Mission</div>
       <div class="mission"></div>
       <div class="Thesis_word">Thesis</div>
       <div class="thesis"></div>
@@ -91,9 +141,12 @@
     </div>
 
     <footer class="footer">
-
       <div class="content">
-          <img class="logo_footer" src="./assets/images/Gradient Logo X 1.png" alt="" />
+        <img
+          class="logo_footer"
+          src="./assets/images/Gradient Logo X 1.png"
+          alt=""
+        />
 
         <div class="content_word">
           <div>
@@ -115,20 +168,18 @@
           <div class="contact">Contact Us</div>
         </div>
         <div class="socials_main">
-            <img class="socials" src="./assets/images/Vector-4.png" alt="" />
+          <img class="socials" src="./assets/images/Vector-4.png" alt="" />
           <img class="socials" src="./assets/images/Vector.png" alt="" />
           <img class="socials" src="./assets/images/Vector-3.png" alt="" />
           <img class="socials" src="./assets/images/Vector-2.png" alt="" />
           <img class="socials" src="./assets/images/Vector-1.png" alt="" />
-          
         </div>
-        <div class="line">
-            <img src="./assets/images/Ellipse 2 (1).png" alt="">
-        </div>
+        <div class="line"></div>
         <div class="Copyright">
           <div>Copyright</div>
           <div>
-            <svg class="copyright_img"
+            <svg
+              class="copyright_img"
               xmlns="http://www.w3.org/2000/svg"
               width="1em"
               height="1em"
@@ -142,7 +193,6 @@
           </div>
           <div>2024 LSGX Limited. All Rights Reserved.</div>
         </div>
-        
       </div>
       <img class="footer_img" src="./assets/images/LSG Background.jpg" alt="" />
     </footer>
