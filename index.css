@@ -682,8 +682,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
       }
       
       .logo{
-        width: 60px;
-        margin-top: 10px;
+        width: 50px;
+        margin-top: 12px;
       }
 
       .home{
@@ -695,15 +695,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
         margin-top: 20px;
       }
       .nav{
-        font-size: 2em;
+        font-size: 1.6em;
         margin-top: 0px;
         display: flex;
         gap: 40px;
         margin-left: 90px;
-        margin-top: 25px;
+        margin-top: 30px;
       }
       .header{
-        height: 6em;
+        height: 5.5em;
         width: 100%;
         position: fixed;
         overflow-x: hidden;
@@ -712,37 +712,37 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
         /* display: flex; */
       }
       .back_button{
-        font-size: 30px;
-        height: 70px;
-        margin-top: 10px;
-        padding: 15px 20px 0px 20px;
-        border-radius: 40px;
-        gap: 20px;
+        font-size: 1.5rem;
+        height: 50px;
+        margin-top: 20px;
+        padding: 10px 20px 0px 20px;
+        /* border-radius: 40px; */
+        gap: 15px;
         right: 7%;
       }
       .backArrow{
-        font-size: 30px;
-        margin-top: 5px;
+        font-size: 1.5rem;
+        margin-top: 3px;
       }
       .search{
-        font-size: 30px;
+        font-size: 1.5rem;
         margin-top: 30px;
       }
       .Word{
-        font-size: 120px;
-        margin-top: 350px;
+        font-size: 90px;
+        margin-top: 300px;
       }
       .mouse{
-        height: 150px;
-        width: 100px;
+        height: 110px;
+        width: 70px;
         border-radius: 80px;
-        border: 3px solid white;
-        margin-top: 800px;
+        border: 2px solid white;
+        margin-top: 600px;
       }
       .m_scroll_arrows{
-        width: 35px;
-        height: 35px;
-        margin-left: 18px;
+        width: 25px;
+        height: 25px;
+        margin-left: 10px;
         border-right: 5px solid white;
         border-bottom: 5px solid white;
       }
@@ -771,7 +771,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
       }
       .mission, .thesis, .story{
         width: 92%;
-        height: 600px;
+        height: 500px;
         margin-top: 20px;
         text-align:center;
             position: relative;
@@ -786,7 +786,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
       }
 
       .mission_word{
-        left: 50%;
+        left: 55%;
       }
       .Thesis_word{
         margin-left: 610px;
@@ -796,9 +796,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
       }
 
       .header.scrolled{
-        margin-left: 500px;
+        margin-left: 400px;
         border-radius:70px;
-        width: 60%;
+        width: 70%;
       }
       .footer_img{
         height: 70vh;
