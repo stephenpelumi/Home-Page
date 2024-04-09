@@ -150,6 +150,10 @@ box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.037);
 
   margin-top: 2px;
 }
+.contact_word{
+  text-decoration: none;
+  color: white;
+}
 .back_button{
     gap: 40px;
     margin-left: 45em;
@@ -765,7 +769,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', end
         /* margin-left: 0%; */
 
       }
-
+      
       .first_img{
         height: 80vh;
       }
